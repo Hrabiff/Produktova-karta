@@ -1,0 +1,120 @@
+.product-card {
+  width: 450px;
+  background-color: whitesmoke;
+  position: relative;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.top-rated_budge {
+  background-color: rgb(49, 25, 187);
+  color: white;
+  position: absolute;
+  top: 108px;
+  left: 8px;
+  border-radius: 4px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.sale-budge {
+  background-color: red;
+  color: white;
+  position: absolute;
+  top: 140px;
+  left: 8px;
+  border-radius: 4px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.discount-budge {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 140px;
+  right: 8px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.product-image {
+  text-align: center;
+}
+
+img {
+  width: 240px;
+  height: 240px;
+}
+
+.product-price-container {
+  position: relative;
+  border-radius: 8px;
+  background-color: rgb(125, 233, 137);
+  margin: 24px;
+  padding: 16px;
+}
+
+.product-price-before-sale-container {
+  display: inline;
+  text-decoration: line-through;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.sale-container {
+  text-align: center;
+  display: inline;
+  font-weight: bold;
+  font-size: larger;
+  position: absolute;
+  left: 96px;
+  color: rgb(255, 0, 0);
+  text-transform: uppercase;
+}
+
+.product-price-after-sale-container {
+  display: inline;
+  font-weight: bold;
+  font-size: larger;
+  position: absolute;
+  right: 24px;
+}
+
+.product-avability {
+  text-align: center;
+  background-color: rgb(154, 212, 222);
+  margin: 24px;
+  padding: 24px;
+}
+
+.final-step-order {
+  background-color: bisque;
+  border-radius: 8px;
+  position: relative;
+  margin: 24px;
+  padding: 24px;
+}
+
+.final-step-order-basket {
+  display: inline-block;
+}
+
+.final-step-order-buy {
+  display: inline-block;
+  position: absolute;
+  right: 16px;
+}
+
+button {
+  border: 2px solid red;
+  border-radius: 4px;
+}
